@@ -1,4 +1,4 @@
-$(function() {
+(function() {
     var socket = io();
     var ping = window.getElementById('ping');
     var pong = window.getElementById('pong');
@@ -14,4 +14,4 @@ $(function() {
     }
 
     ping.addEventListener('input', sendPing);
-});
+})();
